@@ -1,0 +1,28 @@
+.chatinput{
+    widht: 100%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.chatinput textarea{
+    flex:6;
+    height: 50px;
+    padding: 5px 10px;
+    border: none;
+    overflow-y: hidden;
+    outline: none; 
+    resize: none; 
+    font-size: 16px;
+}
+
+.chatinput button{
+    flex:1;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+}

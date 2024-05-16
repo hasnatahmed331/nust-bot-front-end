@@ -1,0 +1,10 @@
+.DocumentCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+    background-color: rgb(241, 245, 249);
+}

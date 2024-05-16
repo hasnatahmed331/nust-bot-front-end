@@ -1,0 +1,47 @@
+.chatbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f5f5f5;
+    height: 90vh;
+    padding : 5% 10%;
+
+    gap: 20px;
+}
+
+.chatbox .messagearea{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    overflow-y: auto;
+    gap: 10px;
+}
+
+.chatbox .inputarea{
+    margin-top: auto;
+}
+
+
+/* ///////////////////////////////////// */
+
+/* Hide the default scrollbar */
+.chatbox .messagearea::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  .chatbox .messagearea::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light gray background */
+  }
+  
+  /* Handle */
+  .chatbox .messagearea::-webkit-scrollbar-thumb {
+    background: #888; /* Dark gray color for the scrollbar handle */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Handle on hover */
+  .chatbox .messagearea::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker gray color on hover */
+  }
+  

@@ -1,0 +1,36 @@
+.message{
+    display: flex;
+}
+
+.messagecontent{
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.messagecontent p{
+    margin: 0;
+    font-size: 15px;
+}
+
+.messagecontent h3{
+    font-weight:500;
+}
+
+.message.right{
+    justify-content: flex-start;
+}
+
+.message.left{
+    justify-content: flex-end;
+}
+
+.messagecontent.right{
+    background-color: rgb(241, 245, 249);
+    margin-right: 10%;
+}
+
+.messagecontent.left{
+    background-color: rgb(203, 213, 225);
+    margin-left: 10%;
+}
